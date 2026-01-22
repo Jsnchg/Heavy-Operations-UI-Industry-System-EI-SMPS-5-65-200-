@@ -1,0 +1,66 @@
+Heavy-Operations-UI-Industry-System-EI-SMPS5-65-200
+BOM 21
+
+A. Switched-Mode Power Supply
+1. AC
+
+B. SMPS (5 - 65W)
+1. AC
+2. NCP51530
+3. NCP1568D
+4. GBU4M
+5. NMOS X3
+6. NCP1654
+7. NCP4305
+8. FODM217D
+9. NCP731
+10. NCV6324
+
+C. SMPS (65 - 200W)
+1. AC
+2. GBU4M
+3. FODM217C
+4. NMOS
+5. D_Capacitance
+6. NCP431
+
+D. SMPS (>200W)
+1. AC
+2. D_Schottky_Filled
+3. NJFET x2
+4. NCP51530
+5. NCP4390
+6. NCS210R
+7. C2M0025120D
+8. NCP1681
+9. NCP4305
+10. NCD9830
+11. Wuerth_760871131
+12. NCV6324
+13. NIS3071
+14. NCP731
+
+
+Total:
+1. AC x3
+2. D_Schottky_Filled 
+3. NJFET x2
+4. NCP51530 x2
+5. NCP4390
+6. NCS210R
+7. C2M0025120D
+8. NCP1681
+9. NCP4305
+10. NCD9830
+11. Wuerth_760871131
+12. NCV6324
+13. NIS3071 
+14. NCP731 x2
+15. NMOS x3
+16. GBU4M x2
+17. FODM217C
+18. NCP431
+19. D_Capacitance
+
+Note: 
+Component 19 is added to make the project more unique

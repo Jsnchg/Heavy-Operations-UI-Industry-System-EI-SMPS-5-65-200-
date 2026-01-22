@@ -1,0 +1,516 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "415387ac-38c2-41cd-8974-955c70827c32")
+	(paper "A4")
+	(lib_symbols
+		(symbol "power:AC"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "AC"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"AC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AC_0_1"
+				(arc
+					(start -1.27 3.175)
+					(mid -0.635 3.8073)
+					(end 0 3.175)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 3.175)
+					(radius 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 3.175)
+					(mid 0.635 2.5427)
+					(end 0 3.175)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 116.84 22.86)
+		(end 144.78 39.37)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2926a660-1eef-46b9-8cfd-100c1b1b2f6f)
+	)
+	(rectangle
+		(start 115.57 50.8)
+		(end 144.78 66.04)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid bec7ec40-c0b6-4b5f-81d5-8d4316cb5110)
+	)
+	(rectangle
+		(start 113.03 78.74)
+		(end 146.05 92.71)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d41bc35b-d872-43e8-b846-3a1799fbd4e9)
+	)
+	(text "Load (>200W)"
+		(exclude_from_sim no)
+		(at 129.286 87.376 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "072e680d-999c-4987-8962-6ed2430d299b")
+	)
+	(text "Load (5-65W)\n"
+		(exclude_from_sim no)
+		(at 127.762 31.242 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f8c8df23-fdcb-45f9-a880-72d0a767cb37")
+	)
+	(text "Load (65 - 200W)\n"
+		(exclude_from_sim no)
+		(at 129.286 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fc51dfa0-f05e-4d37-ab61-a04bf15a42c7")
+	)
+	(junction
+		(at 39.37 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "463f3d9e-a6c5-4b34-9292-980589f62a92")
+	)
+	(wire
+		(pts
+			(xy 39.37 57.15) (xy 52.07 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f5fedd7-b679-4a64-8c62-d1fd3b6ed08b")
+	)
+	(wire
+		(pts
+			(xy 29.21 57.15) (xy 39.37 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cb6a36e-f8d8-4e9a-92d9-36176eab7ee9")
+	)
+	(wire
+		(pts
+			(xy 39.37 33.02) (xy 50.8 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44c02263-66c2-4424-91cb-9a1f71a6219e")
+	)
+	(wire
+		(pts
+			(xy 93.98 57.15) (xy 115.57 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46af51e6-75b3-4f80-b8f5-c9ab35e8f4da")
+	)
+	(wire
+		(pts
+			(xy 113.03 85.09) (xy 113.03 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4afb93fc-5ed0-4a88-af24-6107fc93e41f")
+	)
+	(wire
+		(pts
+			(xy 93.98 86.36) (xy 113.03 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "553ca49c-6851-4968-9742-79d3cc548ae7")
+	)
+	(wire
+		(pts
+			(xy 95.25 30.48) (xy 116.84 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6de48286-a82b-4bd5-9bb6-ef5c6c777434")
+	)
+	(wire
+		(pts
+			(xy 39.37 57.15) (xy 39.37 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1d4081b-5781-4551-9b01-9e692b449ea3")
+	)
+	(wire
+		(pts
+			(xy 39.37 85.09) (xy 52.07 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf7323a3-f985-4d67-b685-298d5f8478ab")
+	)
+	(wire
+		(pts
+			(xy 39.37 57.15) (xy 39.37 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fef65971-05a7-4b72-8da3-1c897d714611")
+	)
+	(symbol
+		(lib_id "power:AC")
+		(at 29.21 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7fa81a7-d98f-4578-8cb6-88db4541b912")
+		(property "Reference" "#PWR01"
+			(at 31.75 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AC"
+			(at 22.86 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"AC\""
+			(at 29.21 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dae9482b-765f-442a-8dc0-eddc97f316d1")
+		)
+		(instances
+			(project ""
+				(path "/415387ac-38c2-41cd-8974-955c70827c32"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 52.07 52.07)
+		(size 41.91 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "18ebcf11-9763-4234-b6e0-141d1f26b98f")
+		(property "Sheetname" "Bridge PFC + Flyback"
+			(at 52.07 51.3584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "2.kicad_sch"
+			(at 52.07 65.3546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Heavy-Operations-UI-Industry-System-EI-SMPS5-65-200"
+				(path "/415387ac-38c2-41cd-8974-955c70827c32"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 52.07 80.01)
+		(size 41.91 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3af521af-514b-4082-99d7-2102ad39b798")
+		(property "Sheetname" "TP PFC + LLC"
+			(at 52.07 79.2984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "3.kicad_sch"
+			(at 52.07 92.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Heavy-Operations-UI-Industry-System-EI-SMPS5-65-200"
+				(path "/415387ac-38c2-41cd-8974-955c70827c32"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 24.13)
+		(size 44.45 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4cbd209a-d481-4825-8f46-0ed664f8ac91")
+		(property "Sheetname" "Flyback Converter"
+			(at 50.8 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 50.8 38.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Heavy-Operations-UI-Industry-System-EI-SMPS5-65-200"
+				(path "/415387ac-38c2-41cd-8974-955c70827c32"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
